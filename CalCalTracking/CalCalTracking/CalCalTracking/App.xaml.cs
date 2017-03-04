@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalCalTracking.PCL.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +14,9 @@ namespace CalCalTracking
 		{
 			InitializeComponent();
 
-			MainPage = new CalCalTracking.MainPage();
-		}
+            MainPage = new NavigationPage(new StartView());
+    //new CalCalTracking.MainPage();
+    ;	}
 
 		protected override void OnStart ()
 		{

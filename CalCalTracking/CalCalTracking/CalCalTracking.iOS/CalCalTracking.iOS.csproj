@@ -137,6 +137,12 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CalCalTracking.PCL\CalCalTracking.PCL.csproj">
+      <Project>{8078a104-681c-4df5-aaf4-cbf6035ef60a}</Project>
+      <Name>CalCalTracking.PCL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\CalCalTracking\CalCalTracking.projitems" Label="Shared" Condition="Exists('..\CalCalTracking\CalCalTracking.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

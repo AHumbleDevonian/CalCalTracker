@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CalCalTracking/CalCalTracking/CalCalTracking.Droid/bin/Debug
+/CalCalTracking/packages
+/CalCalTracking/CalCalTracking.PCL/obj/Debug
+/CalCalTracking/CalCalTracking.PCL/bin/Debug
