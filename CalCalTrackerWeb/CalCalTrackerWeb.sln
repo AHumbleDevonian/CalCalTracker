@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.Web", "CalCalTrackerWeb\CalCalTracker.Web.csproj", "{39D43C21-DFA0-4F25-A93C-45C7840EFBF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.Web.Tests", "CalCalTrackerWeb.Tests\CalCalTracker.Web.Tests.csproj", "{2F379B18-B52D-41D4-99EA-C3B3E8B60597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.Domain", "CalCalTracker.Domain\CalCalTracker.Domain.csproj", "{D3AAFE85-6608-43FF-A468-952AFA6C0F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.DAL", "CalCalTracker.DAL\CalCalTracker.DAL.csproj", "{A4DA67C4-E8B8-4F33-9A17-4DFBD7E92D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.BLL", "CalCalTracker.BLL\CalCalTracker.BLL.csproj", "{47CDF148-25FF-4E4B-BC56-5419FFB80903}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39D43C21-DFA0-4F25-A93C-45C7840EFBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D43C21-DFA0-4F25-A93C-45C7840EFBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D43C21-DFA0-4F25-A93C-45C7840EFBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D43C21-DFA0-4F25-A93C-45C7840EFBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F379B18-B52D-41D4-99EA-C3B3E8B60597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F379B18-B52D-41D4-99EA-C3B3E8B60597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F379B18-B52D-41D4-99EA-C3B3E8B60597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F379B18-B52D-41D4-99EA-C3B3E8B60597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AAFE85-6608-43FF-A468-952AFA6C0F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AAFE85-6608-43FF-A468-952AFA6C0F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AAFE85-6608-43FF-A468-952AFA6C0F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AAFE85-6608-43FF-A468-952AFA6C0F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DA67C4-E8B8-4F33-9A17-4DFBD7E92D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DA67C4-E8B8-4F33-9A17-4DFBD7E92D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DA67C4-E8B8-4F33-9A17-4DFBD7E92D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DA67C4-E8B8-4F33-9A17-4DFBD7E92D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CDF148-25FF-4E4B-BC56-5419FFB80903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CDF148-25FF-4E4B-BC56-5419FFB80903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CDF148-25FF-4E4B-BC56-5419FFB80903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CDF148-25FF-4E4B-BC56-5419FFB80903}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC79241D-BBF6-4A0D-A158-987309069D42}
+	EndGlobalSection
+EndGlobal

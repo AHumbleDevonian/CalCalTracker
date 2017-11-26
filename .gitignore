@@ -6,3 +6,13 @@
 /CalCalTracking/packages
 /CalCalTracking/CalCalTracking.PCL/obj/Debug
 /CalCalTracking/CalCalTracking.PCL/bin/Debug
+/CalCalTrackerWeb/packages
+/CalCalTrackerWeb/CalCalTrackerWeb/obj/Debug
+/CalCalTrackerWeb/CalCalTrackerWeb/bin
+/CalCalTrackerWeb/CalCalTracker.Domain/obj
+/CalCalTrackerWeb/CalCalTracker.Domain/bin/Debug/netstandard2.0
+/CalCalTrackerWeb/CalCalTracker.DAL/obj/Debug
+/CalCalTrackerWeb/CalCalTracker.DAL/bin/Debug
+/CalCalTrackerWeb/CalCalTracker.BLL/obj/Debug
+/CalCalTrackerWeb/CalCalTracker.BLL/bin/Debug
+/CalCalTrackerWeb/CalCalTrackerWeb.Tests/obj/Debug
