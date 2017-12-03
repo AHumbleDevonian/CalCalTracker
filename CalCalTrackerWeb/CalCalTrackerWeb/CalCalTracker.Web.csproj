@@ -319,6 +319,14 @@
       <Project>{47cdf148-25ff-4e4b-bc56-5419ffb80903}</Project>
       <Name>CalCalTracker.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CalCalTracker.DAL\CalCalTracker.DAL.csproj">
+      <Project>{A4DA67C4-E8B8-4F33-9A17-4DFBD7E92D59}</Project>
+      <Name>CalCalTracker.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CalCalTracker.Domain\CalCalTracker.Domain.csproj">
+      <Project>{D3AAFE85-6608-43FF-A468-952AFA6C0F4C}</Project>
+      <Name>CalCalTracker.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

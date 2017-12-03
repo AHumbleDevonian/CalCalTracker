@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalCalTracker.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,9 @@ namespace CalCalTrackerWeb
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            var dbContext = new CalCalContext("DefaultConnection");            
+            var allUSer = dbContext.Users.ToList();
         }
     }
 }
