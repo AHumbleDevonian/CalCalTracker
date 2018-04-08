@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CalCalTracker.Domain.Base;
+using System;
 
 namespace CalCalTracker.Domain
 {
-    public class UserGoal
+    public class UserGoal : CalCalEntity
     {
-        public long Id { get; set; }
         public string Name { get; set; }
         public double TargetWeight { get; set; }
-        public DateTime CreationDate { get; set; }
         public bool Active { get; set; }
         public DateTime? GoalDate { get; set; }
         public DateTime AchievedDate { get; set; }
-        public virtual User User { get; set; }
     }
 }
