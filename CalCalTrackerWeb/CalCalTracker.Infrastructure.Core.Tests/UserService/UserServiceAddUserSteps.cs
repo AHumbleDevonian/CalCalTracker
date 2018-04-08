@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using CalCalTracker.Infrastructure.Core.Dtos;
+using NUnit.Framework;
 using System;
 using TechTalk.SpecFlow;
 
@@ -10,6 +11,10 @@ namespace CalCalTracker.Infrastructure.Core.Tests.UserService
         [Given(@"I have created a basic user")]
         public void GivenIHaveCreatedABasicUser()
         {
+            var basicUser = new AddUserDto()
+            {
+                FirstName = "Bob",
+            };
             ScenarioContext.Current.Pending();
         }
         

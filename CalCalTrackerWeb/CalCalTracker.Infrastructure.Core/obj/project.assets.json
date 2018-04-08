@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "CalCalTracker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CalCalTracker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalCalTracker.Domain.dll": {}
+        }
       }
     }
   },
@@ -169,10 +179,16 @@
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._"
       ]
+    },
+    "CalCalTracker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CalCalTracker.Domain/CalCalTracker.Domain.csproj",
+      "msbuildProject": "../CalCalTracker.Domain/CalCalTracker.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "CalCalTracker.Domain >= 1.0.0",
       "NETStandard.Library >= 2.0.1"
     ]
   },
@@ -208,7 +224,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jonat\\Documents\\Repos\\CalCalTracker\\CalCalTrackerWeb\\CalCalTracker.Domain\\CalCalTracker.Domain.csproj": {
+              "projectPath": "C:\\Users\\Jonat\\Documents\\Repos\\CalCalTracker\\CalCalTrackerWeb\\CalCalTracker.Domain\\CalCalTracker.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

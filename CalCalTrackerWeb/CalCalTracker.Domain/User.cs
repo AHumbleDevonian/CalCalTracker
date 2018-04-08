@@ -10,7 +10,6 @@ namespace CalCalTracker.Domain
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime? DateOfBirth { get; set; }
-        public DateTime DateOfBirthCr { get; set; }
         public Gender? Gender { get; set; }
         public double Weight { get; set; }
     }
