@@ -1,0 +1,12 @@
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\bin\Debug\netstandard2.0\CalCalTracker.Persistence.Core.deps.json
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\bin\Debug\netstandard2.0\CalCalTracker.Persistence.Core.dll
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\bin\Debug\netstandard2.0\CalCalTracker.Persistence.Core.pdb
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\bin\Debug\netstandard2.0\CalCalTracker.Domain.dll
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\bin\Debug\netstandard2.0\CalCalTracker.Domain.pdb
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\obj\Debug\netstandard2.0\CalCalTracker.Persistence.Core.csprojResolveAssemblyReference.cache
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\obj\Debug\netstandard2.0\CalCalTracker.Persistence.Core.csproj.CoreCompileInputs.cache
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\obj\Debug\netstandard2.0\CalCalTracker.Persistence.Core.AssemblyInfoInputs.cache
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\obj\Debug\netstandard2.0\CalCalTracker.Persistence.Core.AssemblyInfo.cs
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\obj\Debug\netstandard2.0\CalCalTracker.Persistence.Core.csproj.CopyComplete
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\obj\Debug\netstandard2.0\CalCalTracker.Persistence.Core.dll
+C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Persistence.Core\obj\Debug\netstandard2.0\CalCalTracker.Persistence.Core.pdb

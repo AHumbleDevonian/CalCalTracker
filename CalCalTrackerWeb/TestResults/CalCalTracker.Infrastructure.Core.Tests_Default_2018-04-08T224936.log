@@ -1,0 +1,51 @@
+﻿2018-04-08T22:49:36.3055453+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-08T22:49:36.3306122+01:00;VSTestExecutionThread;Info;SpecRun: not SpecRun assembly - skip: C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Domain\bin\Debug\netstandard2.0\CalCalTracker.Domain.dll
+2018-04-08T22:49:36.4218562+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-08T22:49:36.4218562+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Infrastructure.Core.Tests\bin\Debug\CalCalTracker.Infrastructure.Core.Tests.dll
+2018-04-08T22:49:36.4218562+01:00;VSTestExecutionThread;Info;Profile: Default
+2018-04-08T22:49:43.5330829+01:00;Thread#15;Info;Discovering target: Default
+2018-04-08T22:49:43.5340745+01:00;Thread#15;Info;Discovering tests from assembly: C:\Users\Jonat\Documents\Repos\CalCalTracker\CalCalTrackerWeb\CalCalTracker.Infrastructure.Core.Tests\bin\Debug\CalCalTracker.Infrastructure.Core.Tests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CalCalTracker.Infrastructure.Core.Tests/Default - 
+#1: Default - 
+#2: CalCalTracker.Infrastructure.Core.Tests - 
+#3: UserServiceAddUser - 
+#4: AddBasicUser - TestAssembly:CalCalTracker.Infrastructure.Core.Tests/Feature:UserServiceAddUser/Scenario:AddBasicUser
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for CalCalTracker.Infrastructure.Core.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Jonat\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have created a basic user
+Thread#0:T:pending: UserServiceAddUserSteps.GivenIHaveCreatedABasicUser()
+Thread#0:B:When I use the AddUser function
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then I should be added as a new user
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: One or more step definitions are not implemented yet.
+Thread#0:T:  UserServiceAddUserSteps.GivenIHaveCreatedABasicUser()
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Pending within 0.5965854 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0
