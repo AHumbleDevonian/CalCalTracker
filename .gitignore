@@ -16,3 +16,5 @@
 /CalCalTrackerWeb/CalCalTracker.BLL/obj/Debug
 /CalCalTrackerWeb/CalCalTracker.BLL/bin/Debug
 /CalCalTrackerWeb/CalCalTrackerWeb.Tests/obj/Debug
+
+CalCalTrackerWeb/\.vs/
