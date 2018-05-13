@@ -18,20 +18,20 @@ namespace CalCalTracker.Infrastructure.Core.Tests.UserService
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.3.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("UserServiceAddUser")]
-    public partial class UserServiceAddUserFeature
+    [NUnit.Framework.DescriptionAttribute("UserServiceGetUser")]
+    public partial class UserServiceGetUserFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "UserServiceAddUser.feature"
+#line 1 "UserServiceGetUser.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "UserServiceAddUser", " \tAIn order to use the system\r\n\tI want to add myself as a new user to the system", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "UserServiceGetUser", " \tAIn order to use the system\r\n\tI want to add myself as a new user to the system", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -64,11 +64,11 @@ namespace CalCalTracker.Infrastructure.Core.Tests.UserService
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("SuccessfulAddUser")]
+        [NUnit.Framework.DescriptionAttribute("SuccessfulGetUser")]
         [NUnit.Framework.CategoryAttribute("addBasicUser")]
-        public virtual void SuccessfulAddUser()
+        public virtual void SuccessfulGetUser()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SuccessfulAddUser", new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SuccessfulGetUser", new string[] {
                         "addBasicUser"});
 #line 6
 this.ScenarioSetup(scenarioInfo);
@@ -77,11 +77,11 @@ this.ScenarioSetup(scenarioInfo);
 #line 8
  testRunner.Given("I have an instance of UserService", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.Given("I have created a user for AddUser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have created a user for GetUser and added it", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
- testRunner.When("I use the AddUser function", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I use the GetUser function", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
- testRunner.Then("I should be added as a new user", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the returned user should match the GetUser original", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

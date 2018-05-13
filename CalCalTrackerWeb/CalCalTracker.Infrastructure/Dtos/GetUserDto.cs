@@ -1,9 +1,9 @@
 ﻿using CalCalTracker.Domain.Enums;
 using System;
 
-namespace CalCalTracker.Infrastructure.Core.Dtos
+namespace CalCalTracker.Infrastructure.Dtos
 {
-    public class AddUserDto
+    public class GetUserDto
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

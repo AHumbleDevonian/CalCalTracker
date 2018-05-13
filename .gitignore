@@ -18,3 +18,23 @@
 /CalCalTrackerWeb/CalCalTrackerWeb.Tests/obj/Debug
 
 CalCalTrackerWeb/\.vs/
+
+CalCalTrackerWeb/CalCalTracker\.Infrastructure\.Core\.Tests/bin/
+
+CalCalTrackerWeb/CalCalTracker\.Persistence\.Core/bin/
+
+CalCalTrackerWeb/CalCalTracker\.Persistence\.Core/obj/
+
+CalCalTrackerWeb/CalCalTracker\.Web\.Core/bin/
+
+CalCalTrackerWeb/CalCalTracker\.Web\.Core/obj/
+
+CalCalTrackerWeb/CalCalTracker\.Infrastructure\.Core\.Tests/obj/
+
+CalCalTrackerWeb/CalCalTracker\.Infrastructure\.Core/bin/
+
+CalCalTrackerWeb/CalCalTracker\.Infrastructure\.Core/obj/
+
+CalCalTrackerWeb/CalCalTracker\.Infrastructure/bin/
+
+CalCalTrackerWeb/CalCalTracker\.Infrastructure/obj/

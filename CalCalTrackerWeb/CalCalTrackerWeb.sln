@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalCalTracker.Domain", "Cal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalCalTracker.Persistence.Core", "CalCalTracker.Persistence.Core\CalCalTracker.Persistence.Core.csproj", "{F5C11903-907F-4597-B03B-22DA170053AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.Web.Core", "CalCalTracker.Web.Core\CalCalTracker.Web.Core.csproj", "{379E9A61-DBB6-4456-A486-315EC71DE434}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalCalTracker.Web.Core", "CalCalTracker.Web.Core\CalCalTracker.Web.Core.csproj", "{379E9A61-DBB6-4456-A486-315EC71DE434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.Infrastructure.Core", "CalCalTracker.Infrastructure.Core\CalCalTracker.Infrastructure.Core.csproj", "{29027C66-E9E8-471F-B373-5E3E1A2938EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalCalTracker.Infrastructure.Core", "CalCalTracker.Infrastructure.Core\CalCalTracker.Infrastructure.Core.csproj", "{29027C66-E9E8-471F-B373-5E3E1A2938EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.Infrastructure.Core.Tests", "CalCalTracker.Infrastructure.Core.Tests\CalCalTracker.Infrastructure.Core.Tests.csproj", "{D073B9C3-41EA-4454-B1C3-D1BD293CC0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalCalTracker.Infrastructure", "CalCalTracker.Infrastructure\CalCalTracker.Infrastructure.csproj", "{B4D2621A-3C7D-4E98-8B95-2A309A9D1121}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D073B9C3-41EA-4454-B1C3-D1BD293CC0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D073B9C3-41EA-4454-B1C3-D1BD293CC0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D073B9C3-41EA-4454-B1C3-D1BD293CC0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D2621A-3C7D-4E98-8B95-2A309A9D1121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D2621A-3C7D-4E98-8B95-2A309A9D1121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D2621A-3C7D-4E98-8B95-2A309A9D1121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D2621A-3C7D-4E98-8B95-2A309A9D1121}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
