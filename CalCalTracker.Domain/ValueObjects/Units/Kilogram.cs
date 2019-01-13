@@ -30,7 +30,7 @@
 
         public override int GetHashCode() => _value.GetHashCode();
 
-        public override string ToString() =>  _value.ToString() + "Kg";
+        public override string ToString() =>  _value.ToString("0.##") + "Kg";
 
         public static bool operator !=(Kilogram a, Kilogram b) => a.Value != b.Value;
 

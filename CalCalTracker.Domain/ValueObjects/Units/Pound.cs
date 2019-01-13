@@ -30,7 +30,7 @@
         
         public override int GetHashCode() => _value.GetHashCode();
 
-        public override string ToString() => _value.ToString() + "Lb";
+        public override string ToString() => _value.ToString("0.##") + "Lb";
 
         public static bool operator !=(Pound a, Pound b) => a.Value != b.Value;
 

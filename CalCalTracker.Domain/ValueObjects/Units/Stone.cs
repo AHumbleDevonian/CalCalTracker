@@ -30,7 +30,7 @@
 
         public override int GetHashCode() => _value.GetHashCode();
 
-        public override string ToString() => _value.ToString() + "St";
+        public override string ToString() => _value.ToString("0.##") + "St";
 
         public static bool operator !=(Stone a, Stone b) => a.Value != b.Value;
 

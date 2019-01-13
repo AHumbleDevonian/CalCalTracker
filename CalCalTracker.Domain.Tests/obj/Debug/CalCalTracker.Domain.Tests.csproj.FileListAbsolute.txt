@@ -1,0 +1,17 @@
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\CalCalTracker.Domain.Tests.dll.config
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\CalCalTracker.Domain.Tests.dll
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\CalCalTracker.Domain.Tests.pdb
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\nunit.framework.dll
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\System.ValueTuple.dll
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\TechTalk.SpecFlow.dll
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\Newtonsoft.Json.pdb
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\nunit.framework.pdb
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\nunit.framework.xml
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\bin\Debug\System.ValueTuple.xml
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\obj\Debug\CalCalTracker.Domain.Tests.csprojAssemblyReference.cache
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\obj\Debug\CalCalTracker.Domain.Tests.csproj.CoreCompileInputs.cache
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\obj\Debug\CalCalTracker.Domain.Tests.csproj.CopyComplete
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\obj\Debug\CalCalTracker.Domain.Tests.dll
+E:\Repos\CalCalTracker\CalCalTracker.Domain.Tests\obj\Debug\CalCalTracker.Domain.Tests.pdb
