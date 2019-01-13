@@ -2,17 +2,15 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CalCalTracking/CalCalTracking/CalCalTracking.Droid/bin/Debug
-/CalCalTracking/packages
-/CalCalTracking/CalCalTracking.PCL/obj/Debug
-/CalCalTracking/CalCalTracking.PCL/bin/Debug
-/CalCalTrackerWeb/packages
-/CalCalTrackerWeb/CalCalTrackerWeb/obj/Debug
-/CalCalTrackerWeb/CalCalTrackerWeb/bin
-/CalCalTrackerWeb/CalCalTracker.Domain/obj
-/CalCalTrackerWeb/CalCalTracker.Domain/bin/Debug/netstandard2.0
-/CalCalTrackerWeb/CalCalTracker.DAL/obj/Debug
-/CalCalTrackerWeb/CalCalTracker.DAL/bin/Debug
-/CalCalTrackerWeb/CalCalTracker.BLL/obj/Debug
-/CalCalTrackerWeb/CalCalTracker.BLL/bin/Debug
-/CalCalTrackerWeb/CalCalTrackerWeb.Tests/obj/Debug
+/packages
+/CalCalTrackerWeb
+/.vs
+/CalCalTracker.Domain/bin
+/CalCalTracker.Domain/obj
+/CalCalTracker.Infrastructure.Core/bin
+/CalCalTracker.Infrastructure.Core/obj
+/CalCalTracker.Infrastructure.Core.Tests/bin
+/CalCalTracker.Infrastructure.Core.Tests/obj
+/CalCalTracker.Persistence.Core/bin
+/CalCalTracker.Persistence.Core/obj
+
